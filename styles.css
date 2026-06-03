@@ -1,0 +1,78 @@
+
+body.dark{background:#050505;color:white;font-family:Arial,sans-serif;margin:0}
+.hero{display:flex;justify-content:space-between;align-items:center;min-height:100vh;padding:5% 8%}
+.left{width:55%;animation:fade 1s}
+.right{width:40%;text-align:center}
+nav{margin-bottom:25px}
+nav a{color:white;text-decoration:none;margin:0 15px;font-weight:bold;transition:.4s}
+nav a:hover{color:#00e5ff}
+.profile{width:320px;border-radius:20px;box-shadow:0 0 30px rgba(0,229,255,.5);animation:float 4s infinite}
+.btn,.back a{padding:12px 20px;background:#00e5ff;color:#000;text-decoration:none;border-radius:8px}
+.page{padding:80px 10%;animation:fade 1s}
+.back{text-align:center;position:fixed;bottom:20px;left:0;right:0}
+@keyframes fade{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+@keyframes float{50%{transform:translateY(-12px)}}
+.about-img{
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+    transition:0.5s;
+}
+
+.about-img:hover{
+    transform:scale(1.03);
+}
+
+.back-home{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 18px;
+    background:#007BFF;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.back-home:hover{
+    background:#0056b3;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li{
+    display: inline-block;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover{
+    color: #00e5ff;
+}
+nav{
+    text-align:center;
+}
+
+.nav-menu{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    list-style:none;
+    padding:0;
+}
